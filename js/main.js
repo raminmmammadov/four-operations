@@ -114,15 +114,15 @@ var AppResult = (e) => {
 
     newQuestion();
   }
-  if (Number(RightAnswer.textContent) == 1) {
+  if (Number(RightAnswer.textContent) == 10) {
     document.getElementById("one").style.color = "darkred";
-  } else if (Number(RightAnswer.textContent) == 2) {
+  } else if (Number(RightAnswer.textContent) == 20) {
     document.getElementById("two").style.color = "red";
-  } else if (Number(RightAnswer.textContent) == 3) {
+  } else if (Number(RightAnswer.textContent) == 30) {
     document.getElementById("three").style.color = "yellow";
-  } else if (Number(RightAnswer.textContent) == 4) {
+  } else if (Number(RightAnswer.textContent) == 40) {
     document.getElementById("four").style.color = "orange";
-  } else if (Number(RightAnswer.textContent) == 5) {
+  } else if (Number(RightAnswer.textContent) == 50) {
     document.getElementById("five").style.color = "green";
     document.getElementById('intro').style.display = 'flex'
   }
