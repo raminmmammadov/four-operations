@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Four Operation</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <a href="index.html">Four Operation</a>
+      </div>
+      <!-- .logo-->
+      <div class="navbar">
+        <a href="about.html">Haqqında</a>
+      </div>
+      <!-- .navbar-->
+    </div>
+    <!-- .header-->
+    <div class="content" style="padding:10px;">
+      <h3>Oyun Qurucusu: Məmmədzadə Ramin</h3>
+      <p style="margin-top: 15px; line-height: 30px;margin-right: 15px;">
+        Oyun çox sadə bir oyundur.Riyaziyyatla bağlıdır deyə hər kəs sevməz bu
+        oyunu.Oyunun qaydaları çox sadədir.Suallara cavab verərək xal
+        qazanırsınız.Düzgün cavabların sayına görə 5 ulduz üzərindən qiymət
+        alırsınız.İlk ulduzu 10 suala düzgün cavab verdikdən sonra
+        alacaqsınız.20 düzgün cavab 2 ulduz,30 düzgün cavab 3 ulduz,40 düzgün
+        cavab isə sizə 4 ulduz qazandıracaq.50 düzgün suala cavab verdikdə isə
+        həm 5-ci ulduzu almış olacaqsınız, həm də, qalib olmuş olursunuz və
+        kiçik bir animasiya ilə qarşılaşırsınız.Qeyd edimki oyun ərzində sizə
+        verilən misallardakı hər iki tərəf 0-50 arasında olacaq.Cavab isə
+        mənfidə ola bilər.Beyninizin daima işlətmək üçün bu oyunu oynaya
+        bilərsiz.Oyun üzərindən heç bir gəlirim yoxdur.Sadəcə oyuna marağınız
+        yaransa sevinərəm. <br />
+        <strong>QEYD: </strong> 50 suala düzgün cavab verib qalib
+        seçilənlər,ekranın şəklini çəkib mənimlə paylaşar zəhmət olmasa.
+      </p>
+    </div>
+    <div class="footer">
+      <h2 id="footer_h2">Team X-code⁹</h2>
+    </div>
+
+    <script>
+      var colors = [
+        "blue",
+        "red",
+        "green",
+        "purple",
+        "orange",
+        "navy",
+        "darkred",
+        "lightskyblue",
+        "teal",
+        "tomato",
+      ];
+      var h2 = document.getElementById("footer_h2");
+      setInterval(() => {
+        var i = parseInt(Math.random() * colors.length);
+        h2.style.color = colors[i];
+      }, 1000);
+    </script>
+  </body>
+</html>
