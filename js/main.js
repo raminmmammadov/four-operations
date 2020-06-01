@@ -133,13 +133,14 @@ form.onsubmit = function (e) {
   AppResult();
 };
 
-next.click = function () {
+next.onclick = function () {
   newQuestion();
   FalseAnswer.textContent = Number(FalseAnswer.textContent) + 1;
   document.getElementById("dislike").style.opacity = 1;
   setTimeout(function (e) {
     document.getElementById("dislike").style.opacity = 0;
   }, 1500);
+  result.value = "";
 };
 
 var colors = [
